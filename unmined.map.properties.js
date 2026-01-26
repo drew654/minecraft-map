@@ -5,10 +5,14 @@ var UnminedMapProperties = {
     defaultZoom: 0,
     imageFormat: "jpeg",
     minRegionX: -8,
-    minRegionZ: -20,
+    minRegionZ: -23,
     maxRegionX: 18,
     maxRegionZ: 11,
     worldName: "Bedrock",
     background: "#000000",
-    markers: new Array()
+    markers: new Array(),
+    enableGrid: true,
+    showGrid: true,
+    centerX: 0,
+    centerZ: 0
 }
